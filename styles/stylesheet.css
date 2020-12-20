@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 #video-bg {
         position: fixed;
@@ -27,7 +27,7 @@
 }
 
 .content p{
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: 400;
@@ -48,8 +48,12 @@
     display: inline-block;
 }
 
+.button {
+    padding: 70px;
+}
+
 a:link {
-    color:#e4a93b;
+    color:#000000;
     background-color: transparent;
     text-decoration: none;
   }
@@ -66,8 +70,10 @@ a:visited {
 }
 
 
+
+
 button {  
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     letter-spacing: 0.1em;
     font-weight: 500;

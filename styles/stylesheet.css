@@ -40,6 +40,7 @@
 .logo-header {
     position: relative;
     margin: auto;
+    margin-top: 30px;
     text-align: center;
     z-index: 1;
     font-family: "Libre Baskerville", "serif";

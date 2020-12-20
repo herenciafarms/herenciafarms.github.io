@@ -19,14 +19,14 @@
         /* This adds opacity filter */
         filter:brightness(80%)
     }
+ 
 
-.logo-header {
-    position: fixed;
+/* .logo-header {
+    position: absolute;
     top: 10%;
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
-    left: 50%;
     margin-top: -50px;
     margin-left: -100px;
     font-family: "Libre Baskerville", "serif";
@@ -35,15 +35,31 @@
     z-index: 1;
     align-items: center;
     text-align: center;
-    display: inline-block;
+} */
+
+.logo-header {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    font-family: "Libre Baskerville", "serif";
+    color: white;
+    letter-spacing: .25em;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
 }
+
 
 .logo-header p {
     font-size: smaller;
+    display: inline-block;
+
 }
 
 .logo-header h3 {
     font-size: small;
+
 }
 
 .content {
@@ -52,6 +68,7 @@
     text-align: center;
     z-index: 1;
     max-width: 1000px;
+
 }
 
 .content p{
